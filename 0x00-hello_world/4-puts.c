@@ -1,30 +1,17 @@
-/**                                                                                                              
- * It's a program that print                                                                                     
- * Programming is like building a multilingual puzzle                                                            
- */
-
 #include <stdio.h>
 
 /**
-
- * It's a program that print
- * Programming is like building a multilingual puzzle
+ * main - Entry point
  *
+ * Return: Always 0 (Success)
  */
-
-int main()
+int main(void)
 {
-  /**                                                                                                              
-                                                                                                                 
- * It's a program that print                                                                                     
- * Programming is like building a multilingual puzzle                                                            
- *                                                                                                               
- */
-  char Mystr[];
-
-  char Mystr[] = "Programming is like building a multilingual puzzle";
-
-  puts(Mystr);
-  /* writing the string to stdout */
-  return (0);
+    puts("Programming is like building a multilingual puzzle");
+    return (0);
 }
+
+
+
+
+
