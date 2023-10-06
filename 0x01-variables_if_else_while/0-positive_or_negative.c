@@ -5,7 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- *A function that prints a number and if it's positive or negative
+ * main - Entry point
+ *
+ * Return: Always n (Success)
  */
 int main(void)
 {  /**
@@ -18,15 +20,15 @@ int main(void)
 	/* your code goes there */
 	return (0);
 
-	if (n == 0)
+	if (n > 0)
 	{
-		printf("%d is zero", n);
-	} else if (n > 0)
+		printf("%d is positive\n", n);
+	} else if (n == 0)
 	{
-		printf("%d is positive", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%d is negative", n);
+		printf("%d is negative\n", n);
 	}
 }
