@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  *print_sign - is a function that checks if a number is positive of negative
  *
