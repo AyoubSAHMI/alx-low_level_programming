@@ -1,0 +1,21 @@
+/**
+ *_abs - a function that gives the absolute value
+ *
+ *Return: absolute value
+ */
+
+int _abs(int)
+{
+	int x;
+	int n;
+
+	if (n < 0)
+	{
+		x = n * (-1);
+		return (x);
+	}
+	else
+	{
+		return (n);
+	}
+}
