@@ -1,0 +1,1 @@
+A serie of exercises that are focused on functions
