@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+*main - a function that return largest prime factor
+*Return: an int that is the largest prime factor of a given number
+*/
+
+int main(void)
+{
+	int np;
+	int i;
+	int tab[100];
+	int max;
+
+	i = 1;
+	np = 612852475143;
+
+while (np / i != 1)
+{
+	if (np % i == 0)
+	{
+		tab[i] = i;
+		np = (np / i);
+	}
+	i++;
+}
+for (i = 0 ; i < 100 ; i++)
+{
+	max = 0;
+	if (tab[i] > tab[i++])
+	{
+		max = tab[i];
+	}
+}
+printf("The largest prime factor of the number %d is %d\n", n, max);
+return (max);
+}
