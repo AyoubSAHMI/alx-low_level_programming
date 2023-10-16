@@ -1,0 +1,1 @@
+The directory of the exercises related to pointers and arrays
