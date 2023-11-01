@@ -31,5 +31,5 @@ int **alloc_grid(int width, int height)
 			array[h][w];
 		}
 	}
-	return (array);
+	return (&array);
 }
