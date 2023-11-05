@@ -1,0 +1,1 @@
+Exercises to master structures and typedef
