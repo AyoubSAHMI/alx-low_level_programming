@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 *power - a function that returns power of a number
 *@base : the number

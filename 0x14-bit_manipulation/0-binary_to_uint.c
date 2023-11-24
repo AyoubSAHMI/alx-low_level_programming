@@ -1,4 +1,5 @@
 #include "main.h"
+#include "power.c"
 /**
  *binary_to_uint - function that transform binary to uint
  *@b: the binary number
