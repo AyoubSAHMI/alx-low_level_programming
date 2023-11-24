@@ -1,20 +1,21 @@
 #include "main.h"
-#include <stdio.h>
 /**
-*power - a function that returns power of a number
-*@base : the number
-*@exponent: the power
-*Return: the wanted number
-*/
-unsigned int power(unsigned int base, unsigned int exponent)
+ *power - calculate a power b
+ *@a: base
+ *@b: power
+ *Return: power of a
+ */
+unsigned int power(unsigned int a, unsigned int b)
 {
-unsigned int result;
-unsigned int i;
-result = 1;
+unsigned int p, i;
 i = 0;
-for (i = 0; i < exponent; ++i)
+p = 1;
+if (b == 0)
+return (1);
+while (i < b)
 {
-result *= base;
+p = p *a;
+i++;
 }
-return (result);
+return (p);
 }
