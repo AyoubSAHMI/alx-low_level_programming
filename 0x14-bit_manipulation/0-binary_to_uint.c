@@ -1,24 +1,5 @@
 #include "main.h"
 /**
- *power - a function that returns power of a number
- *@base : the number
- *@exponent: the power
- *Return: the wanted number
- */
-unsigned int power(unsigned int base, unsigned int exponent)
-{
-    unsigned int result;
-    unsigned int i;
-    result = 1;
-    i = 0;
-
-	    for (i = 0; i < exponent; ++i)
-	    {
-		    result *= base;
-	    }
-    return (result);
-}
-/**
  *binary_to_uint - function that transform binary to uint
  *@b: the binary number
  *Return: an unsigned int
@@ -26,6 +7,7 @@ unsigned int power(unsigned int base, unsigned int exponent)
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int i, val, j;
+
 	i = 0;
 	j = 0;
 	val = 0;
