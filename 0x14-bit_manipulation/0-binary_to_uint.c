@@ -1,4 +1,4 @@
-x#include "main.h"
+#include "main.h"
 /**
  *power - a function that returns power of a number
  *@base : the number
@@ -7,16 +7,15 @@ x#include "main.h"
  */
 unsigned int power(unsigned int base, unsigned int exponent)
 {
-    unsigned int result = 1;
+    unsigned int result;
     unsigned int i;
+    result = 1;
+    i = 0;
 
-    if (exponent >= 0)
-    {
-	    for (int i = 0; i < exponent; ++i)
+	    for (i = 0; i < exponent; ++i)
 	    {
 		    result *= base;
 	    }
-    }
     return (result);
 }
 /**
@@ -45,8 +44,7 @@ unsigned int binary_to_uint(const char *b)
 	}
 	for (j = 0; j < i; j++)
 	{
-		val += (b[j] - '0') * power(2, i);
+		val += ((b[j] - '0') * power(2, i));
 	}
-
 	return (val);
 }
