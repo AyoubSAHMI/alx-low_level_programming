@@ -1,5 +1,5 @@
-#ifndef main_h
-#define main_h
+#ifndef BITMANIP_H
+#define BITMANIP_H
 
 #include <stdlib.h>
 
